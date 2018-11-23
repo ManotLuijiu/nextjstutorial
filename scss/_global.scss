@@ -1,5 +1,10 @@
 // App-wide global styles
 
 body {
-  padding: 50px;
+  font: 16px Rubik, sans-serif;
+  color: #222;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.5em;
+  background-color: $background-color;
 }
