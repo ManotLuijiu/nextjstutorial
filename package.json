@@ -2,6 +2,9 @@
   "name": "nextturorial",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
   "repository": "git@github.com:ManotLuijiu/nextjstutorial.git",
   "author": "Manot Luijiu",
   "license": "MIT",
