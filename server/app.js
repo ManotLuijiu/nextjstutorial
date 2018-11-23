@@ -10,10 +10,9 @@ app
   .prepare()
   .then(() => {
     const server = express();
+    const showRoutes = require('./routes/index.js');
 
-    server.get('/api/movies', (req, res) => {
-      return res.send('We made it');
-    });
+    server.use('/api', showRoutes);
 
     server.get('*', (req, res) => {
       return handle(req, res);
