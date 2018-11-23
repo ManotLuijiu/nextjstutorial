@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import '../scss/main.scss';
 
 const Index = () => (
   <section>
