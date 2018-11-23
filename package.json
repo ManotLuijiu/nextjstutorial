@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "nodemon server/app.js"
   },
   "repository": "git@github.com:ManotLuijiu/nextjstutorial.git",
   "author": "Manot Luijiu",

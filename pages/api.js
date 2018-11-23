@@ -2,13 +2,13 @@ import Navbar from '../components/Navbar';
 import Head from 'next/head';
 import '../scss/main.scss';
 
-const About = () => (
+const API = () => (
   <section style={{ padding: '10px 45px' }}>
     <Head>
-      <title>About us</title>
+      <title>Our API</title>
     </Head>
     <Navbar />
-    <h1>About Means Business Ltd.</h1>
+    <h1>API</h1>
     <p>
       <span>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
@@ -32,4 +32,4 @@ const About = () => (
   </section>
 );
 
-export default About;
+export default API;
