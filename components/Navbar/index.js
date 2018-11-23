@@ -20,6 +20,7 @@ class Navbar extends Component {
           <Link href="/api">
             <a title="Our Api">API</a>
           </Link>
+          <mark className="badge">Hello!</mark>
         </div>
       </nav>
     );
