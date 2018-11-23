@@ -1,0 +1,18 @@
+nav {
+  padding: 10px;
+
+  a {
+    text-decoration: none;
+    color: $color-gray-dark;
+  }
+}
+
+.link {
+  padding: 8px;
+  color: $color-blue-medium;
+  text-decoration: none;
+
+  &--home {
+    color: $color-red-light;
+  }
+}
